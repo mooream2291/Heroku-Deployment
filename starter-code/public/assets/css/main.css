@@ -1,9 +1,12 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import 'base.css';
-@import '/layout.css';
-@import '/flex-box/flex-container.css';
-@import '/flex-box/flex-items.css';
+@import 'layout/layout.css';
+@import 'layout/flex-box/flex-container.css';
+@import 'layout/flex-box/flex-items.css';
+@import 'modules/base_mods.css';
+@import 'modules/module.css';
+@import 'modules/amimations.css';
 
 /*
 	Prologue by HTML5 UP
@@ -1877,7 +1880,7 @@ Sections/Article
 			background: #fff;
 		} */
 
-	form input[type="text"],
+	/* form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
 	form select {
@@ -1937,7 +1940,7 @@ Sections/Article
 
 		table tfoot {
 			background: #eee;
-		}
+		} */
 
 /* Button */
 
