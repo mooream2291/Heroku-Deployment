@@ -1,5 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import 'base.css';
+@import '/layout.css';
+@import '/flex-box/flex-container.css';
+@import '/flex-box/flex-items.css';
 
 /*
 	Prologue by HTML5 UP
@@ -82,7 +86,7 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
+	/* body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
@@ -100,17 +104,17 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
-	input, textarea, select {
+	/* input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	} */
 
-	h1, h2, h3, h4, h5, h6 {
+	/* h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -123,7 +127,7 @@ input, select, textarea {
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			color: #333;
-		}
+		} */
 
 	h2 {
 		font-size: 2em;
@@ -163,7 +167,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	a {
+	/* a {
 		text-decoration: none;
 		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -172,14 +176,14 @@ input, select, textarea {
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		outline: 0;
-	}
+	} */
 
 		a:hover {
 			color: #E27689;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
-	sub {
+	/* sub {
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
@@ -208,11 +212,11 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	} */
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
@@ -256,11 +260,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1724,9 +1728,9 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
-
-/* Sections/Article */
+		} */
+/* 
+Sections/Article
 
 	section, article {
 		margin-bottom: 3em;
@@ -1744,7 +1748,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
 	}
@@ -1793,7 +1797,7 @@ input, select, textarea {
 
 /* List */
 
-	ul {
+	/* ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
@@ -1809,11 +1813,11 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */ */ */
 
 /* Icons */
 
-	ul.icons {
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1831,17 +1835,17 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
-/* Form */
+/* Form
 
 	form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
-	}
+	} */
 
-	form input[type="text"],
+	/* form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
 	form select,
@@ -1871,7 +1875,7 @@ input, select, textarea {
 		form textarea:focus {
 			box-shadow: 0 0 2px 1px #8ebebc;
 			background: #fff;
-		}
+		} */
 
 	form input[type="text"],
 	form input[type="email"],
@@ -1937,7 +1941,7 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="button"],
+	/* input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -1959,9 +1963,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
-	}
+	} */
 
-		input[type="button"]:hover,
+		/* input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
@@ -1975,11 +1979,11 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
-		}
+		} */
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1997,7 +2001,7 @@ input, select, textarea {
 
 /* Icons */
 
-	.icon {
+	/* .icon {
 		text-decoration: none;
 	}
 
@@ -2015,11 +2019,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */ */
 
 /* Header */
 
-	#header {
+	/* #header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2042,9 +2046,9 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 375px;
-	}
+	} */
 
-		#header .top {
+		/* #header .top {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2057,30 +2061,30 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			padding: 1.5em 0 0.75em 0;
-		}
+		} */
 
-			#header .bottom > :last-child {
+			/* #header .bottom > :last-child {
 				margin-bottom: 0;
 			}
 
 		#header .icons {
 			font-size: 0.8em;
 			text-align: center;
-		}
+		} */
 
-			#header .icons a {
+			/* #header .icons a {
 				color: #41484c;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
 				transition: color 0.35s ease-in-out;
-			}
+			} */
 
-				#header .icons a:hover {
+				/* #header .icons a:hover {
 					color: #fff;
-				}
+				} */
 
-	#logo {
+	/* #logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
@@ -2156,11 +2160,11 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					}
+					} */
 
 /* Footer */
 
-	#footer {
+	/* #footer {
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
@@ -2186,11 +2190,11 @@ input, select, textarea {
 					border-left: 0;
 					padding-left: 0;
 					margin-left: 0;
-				}
+				} */
 
 /* Main */
 
-	#main {
+	/* #main {
 		margin-left: 375px;
 	}
 
@@ -2247,83 +2251,83 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			} */
 
 /* Wide */
 
-	@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1880px) { */
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 17pt;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 300px;
-			}
+			} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 300px;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 300px;
 			}
 
-	}
+	} */
 
 /* Normal */
 
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1620px) { */
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 3em 0;
 			}
 
 			#main section.cover {
 				padding: 5em 0;
-			}
+			} */
 
-	}
+	/* } */
 
 /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 16pt;
 			}
 
 			.container {
 				padding: 0 2em 0 2em;
-			}
+			} */ 
 
 		/* Icons */
 
-			ul.icons li a {
+			/* ul.icons li a {
 				width: 1.75em;
-			}
+			} */
 
 		/* Item */
 
-			.item {
+			/* .item {
 				margin-bottom: 20px;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 20%;
 			}
 
@@ -2346,25 +2350,25 @@ input, select, textarea {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					}
+					} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 20%;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 20%;
 			}
 
-	}
+	} */
 
 /* Narrower */
 
-	#headerToggle {
+	/* #headerToggle {
 		display: none;
 	}
 
@@ -2372,7 +2376,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			html, body {
+			/* html, body {
 				overflow-x: hidden;
 			}
 
@@ -2386,24 +2390,24 @@ input, select, textarea {
 
 			.container {
 				padding: 0 2em 0 2em;
-			}
+			} */ 
 
 		/* Item */
 
-			.item {
+			/* .item {
 				margin-bottom: 15px;
-			}
+			} */
 
 		/* Icons */
 
-			ul.icons a {
+			/* ul.icons a {
 				width: 1.75em;
 				font-size: 1.25em;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2428,9 +2432,9 @@ input, select, textarea {
 				width: 275px;
 				background: #222729 url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
-			}
+			} */
 
-				#header .top {
+				/* #header .top {
 					position: relative;
 				}
 
@@ -2448,9 +2452,9 @@ input, select, textarea {
 
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
-			}
+			} */
 
-			#headerToggle {
+			/* #headerToggle {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2466,9 +2470,9 @@ input, select, textarea {
 				top: 0;
 				width: 3.25em;
 				z-index: 10001;
-			}
+			} */
 
-				#headerToggle .toggle {
+				/* #headerToggle .toggle {
 					position: absolute;
 					left: 0;
 					top: 0;
@@ -2476,9 +2480,9 @@ input, select, textarea {
 					height: 100%;
 					outline: 0;
 					border: 0;
-				}
+				} */
 
-					#headerToggle .toggle:before {
+					/* #headerToggle .toggle:before {
 						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
@@ -2524,13 +2528,13 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 0;
-			}
+			} */ 
 
 		/* Main */
 
-			#main {
+			/* #main {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2551,15 +2555,15 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
-	}
+	} */
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	/* @media screen and (max-width: 736px) { */
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 14pt;
 			}
 
@@ -2571,18 +2575,18 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
-			}
+			} */
 
 		/* List */
 
-			ul.icons a {
+			/* ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
-			}
+			} */
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 2em 0;
 			}
 
@@ -2592,11 +2596,11 @@ input, select, textarea {
 
 				#main section.cover header {
 					padding: 0 1em;
-				}
+				} */
 
 		/* Footer */
 
-			#footer .copyright li {
+			/* #footer .copyright li {
 				display: block;
 				line-height: 1.25em;
 				border: 0;
@@ -2608,4 +2612,4 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-	}
+	} */
