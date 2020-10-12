@@ -109,11 +109,11 @@ button,
 .button {
     position: relative;
     display: inline-block;
-    border-radius: 0.35em;
     color: #fff !important;
     text-decoration: none;
-    padding: 0.75em 2.5em 0.75em 2.5em;
-    background-color: #8ebebc;
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    background-color: #dfab5e;
+    opacity: 0.75;
     border: 0;
     cursor: pointer;
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -247,6 +247,7 @@ button,
 
 #logo {
     position: relative;
+    border-radius: 180px;
     margin: 1.75em 1.5em 1.5em 1.5em;
     min-height: 48px;
     cursor: default;
@@ -670,7 +671,7 @@ button,
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            background-image: url("../../images/fractal-.jpg");
         }
 
         #main > section.two {
